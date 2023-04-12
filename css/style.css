@@ -49,10 +49,9 @@ header {
 }
 /* Nav */
 nav {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
   }
   
   nav ul {
@@ -62,15 +61,15 @@ nav {
     display: flex;
   }
   
-  nav li a {
+  nav li a  {
     margin: 0 10px;
-    color: white;
+    color: rgb(143, 13, 13);
     text-decoration: none;
   }
   
-  nav li:hover {
+  nav li:hover  {
     text-decoration: underline;
-    color: #ccc;
+    color: #000000;
     border-bottom: none;
   }
   
@@ -647,7 +646,7 @@ input[type="submit"] {
 }
 
 /* Estilos para el formulario de crear cuenta */
-form {
+form  {
     margin: auto;
     width: 50%;
     border: 3px solid #f1f1f1;

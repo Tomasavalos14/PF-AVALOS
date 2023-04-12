@@ -34,28 +34,55 @@
     <body>
 
         <header>
-            <nav>
-                <ul>
-                  <li><a href="../index.html">inicio</a></li>
-                  <li><a href="acerca-de.html">acerca de</a></li>
-                  <li><a href="cursos.html">cursos</a></li>
-                  <li><a href="contacto.html">contacto</a></li>
-                  <li><a href="productos.html">productos</a></li>
-                  <li><a href="crear-cuenta.html">crear cuenta</a></li>
-                  <li><a href="iniciar-sesion.html">iniciar sesion</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg " style="background-color: #ebeceddf;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">NEBRA studio</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="acerca-de.html">Acerca de nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Cuenta
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="crear-cuenta.html">Crear cuenta</a></li>
+                          <li><a class="dropdown-item" href="iniciar-sesion.html">Iniciar secion</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="cerrar-sesion.html">Cerrar sesión</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                           </a>
+                           <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="cursos.html">cursos</a></li>
+                             <li><a class="dropdown-item" href="productos.html">productos</a></li>
+                           </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Buscar"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
               </nav>
-              <div class="search-bar">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-
-            </nav>
             <section class="textos-header">
-                <h1>Nebra Tattoo Studio</h1>
-                <h2>Tu idea la plazmamos en tu piel</h2>
+                <h1>Nuestros productos</h1>
+                <h2>Los insumos que necesitas en tu dia a dia</h2>
             </section>
 
             <header>
@@ -182,5 +209,6 @@
                 </main>
             </header>
         </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>
