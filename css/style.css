@@ -52,107 +52,102 @@ nav {
     display: block;
     flex-direction: column;
     align-items: center;
-  }
-  
-  nav ul {
+
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  nav li a  {
+}
+
+nav li a {
     margin: 0 10px;
-    color: rgb(143, 13, 13);
+    color: white;
     text-decoration: none;
-  }
-  
-  nav li:hover  {
+}
+
+nav li:hover {
     text-decoration: underline;
-    color: #000000;
+    color: #ccc;
     border-bottom: none;
-  }
-  
-    
-  
-  .search-bar {
+}
+
+.search-bar {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-  }
-  
-  /* Media queries para hacer el diseño responsive */
-  
-  @media (max-width: 1440px) {
+}
+
+/* Media queries para hacer el diseño responsive */
+
+@media (max-width: 1440px) {
     nav {
-      flex-direction: row;
-      justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
     }
-  }
-  
- 
-  @media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
     nav {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  }
-  
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     nav {
-      margin-top: 40px;
-      
+        margin-top: 40px;
+
     }
-  }
-  
- 
-  @media (max-width: 400px) {
+}
+
+@media (max-width: 400px) {
     nav {
-      flex-direction: column;
-      align-items: center;
-      position: relative;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
     }
-  
+
     nav ul {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background-color: #fff;
-      z-index: 1;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 1;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
-  
+
     nav li {
-      margin: 10px 0;
+        margin: 10px 0;
     }
-  
+
     .toggle-nav {
-      display: block;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      width: 30px;
-      height: 30px;
-      background-image: url('menu-icon.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url("menu-icon.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
     }
-  
+
     .show-nav ul {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-  
+
     .show-nav .toggle-nav {
-      background-image: url('close-icon.png');
+        background-image: url("close-icon.png");
     }
-  }
-  
+}
 
 header .textos-header {
     display: flex;
@@ -308,7 +303,7 @@ main .sobre-nosotros {
     border: 1px solid #34c4e4;
     border-radius: 50%;
     display: block;
-    
+
 }
 
 .cards .card > .contenido-texto-card {
@@ -574,33 +569,33 @@ form {
     background-color: #f7f7f7;
     padding: 30px;
     border-radius: 10px;
-  }
-  label {
+}
+label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-  } 
-  input,
-  textarea {
+}
+input,
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
     border: none;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  }
-  button[type="submit"] {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+button[type="submit"] {
     background-color: #4caf50;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  button[type="submit"]:hover {
+}
+button[type="submit"]:hover {
     background-color: #3e8e41;
-  }
-  
+}
+
 .form {
     margin-bottom: 200px;
 }
@@ -646,11 +641,9 @@ input[type="submit"] {
 }
 
 /* Estilos para el formulario de crear cuenta */
-form  {
+form {
     margin: auto;
     width: 50%;
     border: 3px solid #f1f1f1;
     padding: 10px;
 }
-
-

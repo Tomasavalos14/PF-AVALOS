@@ -5,7 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nebra tattoo studio</title>
-        
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
         <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
         <link rel="stylesheet" href="../css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
         <link
@@ -30,50 +34,78 @@
         <body>
             <nav class="navbar navbar-expand-lg " style="background-color: #ebeceddf;">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">NEBRA studio</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="acerca-de.html">Acerca de nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Cuenta
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="crear-cuenta.html">Crear cuenta</a></li>
-                          <li><a class="dropdown-item" href="iniciar-sesion.html">Iniciar secion</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="cerrar-sesion.html">Cerrar sesión</a></li>
+                    <a class="navbar-brand" href="../index.html">NEBRA studio</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="acerca-de.html">Acerca de nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="cursos.html">cursos</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="productos.html">productos</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Cuenta
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="crear-cuenta.html">Crear cuenta</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="iniciar-sesion.html">Iniciar secion</a>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item" href="cerrar-sesion.html">Cerrar sesión</a>
+                                    </li>
+                                </ul>
+                            </li>
+
                         </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                           </a>
-                           <ul class="dropdown-menu">
-                             <li><a class="dropdown-item" href="cursos.html">cursos</a></li>
-                             <li><a class="dropdown-item" href="productos.html">productos</a></li>
-                           </ul>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input
-                            class="form-control me-2"
-                            type="search"
-                            placeholder="Buscar"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                  </div>
+                        <form class="d-flex" role="search">
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                placeholder="Buscar"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
                 </div>
-              </nav>
+            </nav>
             <section class="textos-header">
                 <h1>Nebra Tattoo Studio</h1>
                 <h2>Iniciar sesion</h2>
@@ -81,43 +113,46 @@
             <header>
                 <section class="form">
                     <div>
-                      <form id="login-form" method="POST">
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" id="email" name="email" required>
-                        
-                        <label for="password">Contraseña:</label>
-                        <input type="password" id="password" name="password" required>
-                        
-                        <button type="submit">Iniciar sesión</button>
-                      </form>
-                    </div>
-                  </section>
-                  
-                    <p>
-                        <a href="recuperar_contraseña.html">Recuperar contraseña</a>
-                    </p>
-                </section>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-            </body>
+                        <form id="login-form" method="POST">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required="required">
 
-            <footer>
-                <div class="contenedor-footer">
-                    <div class="content-foo">
-                        <h4>Phone</h4>
-                        <p>2226502624</p>
+                            <label for="password">Contraseña:</label>
+                            <input type="password" id="password" name="password" required="required">
+
+                            <button type="submit">Iniciar sesión</button>
+                        </form>
                     </div>
-                    <div class="content-foo">
-                        <h4>Correo</h4>
-                        <p>avalost2301@gmail.com</p>
-                    </div>
-                    <div class="content-foo">
-                        <h4>Direccion</h4>
-                        <p>paraguay 495</p>
-                    </div>
+                </section>
+
+                <p>
+                    <a href="recuperar_contraseña.html">Recuperar contraseña</a>
+                </p>
+            </section>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                crossorigin="anonymous"></script>
+        </body>
+
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Phone</h4>
+                    <p>2226502624</p>
                 </div>
-                <h2 class="titulo-final">&copy; Tomas A. Desing
-                </h2>
-            </footer>
-        </header>
+                <div class="content-foo">
+                    <h4>Correo</h4>
+                    <p>avalost2301@gmail.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Direccion</h4>
+                    <p>paraguay 495</p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Tomas A. Desing
+            </h2>
+        </footer>
     </header>
+</header>
 </html>
