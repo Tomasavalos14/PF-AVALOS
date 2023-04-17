@@ -1,0 +1,87 @@
+// pagina acerca de 
+.p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+// pagina de contacto 
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.form {
+    margin-bottom: 200px;
+}
+// Estilos para el formulario de inicio de sesión
+form {
+    background-color: rgba(95, 88, 102, 0.93);
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+// Estilos para los campos de entrada 
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+
+}
+
+// Estilos para el botón de enviar 
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+// Estilos para el formulario de crear cuenta 
+form {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #f1f1f1;
+    padding: 10px;
+}

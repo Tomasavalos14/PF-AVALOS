@@ -1,0 +1,33 @@
+//nav
+
+nav {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    color: #ccc;
+    border-bottom: none;
+}
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

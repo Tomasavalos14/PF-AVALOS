@@ -1,0 +1,37 @@
+//header
+
+header {
+    width: 100%;
+    height: auto;
+    background: $main-color;
+    background: -webkit-linear-gradient(to right, $gradient-color-1, $gradient-color-2), url("../img/BACKMOV.gif.gif");
+    background: linear-gradient(to right, $gradient-color-1, $gradient-color-2), url("../img/BACKMOV.gif.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+header .textos-header {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.textos-header h1 {
+    font-size: 70px;
+    color: #d6f5ff;
+
+}
+
+.textos-header h2 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #d6f5ff;
+    font-family: 'Roboto', sans-serif;
+}

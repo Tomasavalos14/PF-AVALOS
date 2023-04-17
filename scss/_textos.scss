@@ -1,0 +1,53 @@
+//textos
+main .sobre-nosotros {
+    padding: 30px 0 60px;
+}
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us {
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+    border-radius: 5%;
+
+}
+
+.contenido-textos h3 {
+    color: #ffffff;
+    margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenido-textos h3 span {
+    background: #4d0686;
+    color: #fcfbfb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 37px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+
+}
+
+.contenido-textos p {
+    padding: 0 0 30px 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+}
