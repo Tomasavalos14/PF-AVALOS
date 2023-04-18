@@ -255,3 +255,51 @@ body {
 .imagen-port {
   width: 44%;
 }
+
+//pagina sobre nosotros video y maps 
+section {
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .servicio-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .servicio-ind {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  
+    @media (min-width: 768px) {
+      flex-basis: 45%;
+      max-width: 45%;
+    }
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+  
+  video {
+    width: 100%;
+  
+    @media (min-width: 768px) {
+      width: 500px;
+      height: 300px;
+    }
+  }
+  

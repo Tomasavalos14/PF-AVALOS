@@ -212,6 +212,53 @@ body {
   width: 44%;
 }
 
+section {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.servicio-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.servicio-ind {
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .servicio-ind {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+video {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  video {
+    width: 500px;
+    height: 300px;
+  }
+}
+
 header {
   width: 100%;
   height: auto;
@@ -290,29 +337,7 @@ nav li:hover {
 }
 @media (max-width: 768px) {
   nav {
-    margin-top: 40px;
-  }
-}
-@media (max-width: 400px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-}
-@media screen and (max-width: 1000px) {
-  nav {
-    text-align: center;
-    padding: 30px 0 0;
-  }
-  nav > a {
-    margin-right: 5px;
-  }
-  .textos-header h1 {
-    font-size: 35px;
-  }
-  .textos-header h2 {
-    font-size: 20px;
+    margin-top: 0px;
   }
 }
 footer {
@@ -493,4 +518,57 @@ main .sobre-nosotros {
 
 video-1 {
   position: fixed;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+}
+nav nav ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+nav nav li {
+  margin: 10px 0;
+}
+nav .toggle-nav {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url("menu-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+nav .show-nav ul {
+  display: flex;
+  flex-direction: column;
+}
+nav .show-nav .toggle-nav {
+  background-image: url("close-icon.png");
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button button[type=submit]:hover {
+  background-color: #3e8e41;
 }/*# sourceMappingURL=main.css.map */
