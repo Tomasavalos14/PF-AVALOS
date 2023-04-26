@@ -168,6 +168,7 @@ body {
 .about-services {
   background-color: black;
   padding-bottom: 30px;
+  position: absolute;
 }
 
 .servicio-cont {
@@ -253,8 +254,8 @@ video {
 }
 @media (min-width: 768px) {
   video {
-    width: 500px;
     height: 300px;
+    width: 350px;
   }
 }
 
@@ -518,7 +519,7 @@ main .sobre-nosotros {
 }
 
 video-1 {
-  position: fixed;
+  position: absolute;
 }
 
 @media screen and (max-width: 480px) {

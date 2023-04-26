@@ -211,7 +211,7 @@ body {
 .about-services {
   background-color: black;
   padding-bottom: 30px;
-  
+  position: absolute;
 
 }
 
@@ -220,6 +220,7 @@ body {
   justify-content: space-between;
   align-items: center;
   justify-content: space-evenly;
+
 }
 
 .servicio-ind {
@@ -300,8 +301,8 @@ section {
     width: 100%;
   
     @media (min-width: 768px) {
-      width: 500px;
       height: 300px;
+      width: 350px;
     }
   }
   
