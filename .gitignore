@@ -1,4 +1,7 @@
  node_modules/
- *.vscode
+ *.vsc
  *.log
+ *.map
+ *.ai
  *.psd
+ *.txt

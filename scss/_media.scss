@@ -1,8 +1,8 @@
-//* Media queries para hacer el diseño responsive */
+// Media queries para hacer el diseño responsive 
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
     nav {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 }

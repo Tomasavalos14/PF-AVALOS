@@ -13,19 +13,21 @@ header {
 
 header .textos-header {
     display: flex;
-    height: 450px;
+    height: auto;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-
+    
+ 
 }
 
 .textos-header h1 {
     font-size: 70px;
     color: #d6f5ff;
+    height: auto;
 
 }
 
@@ -34,4 +36,5 @@ header .textos-header {
     font-weight: 300;
     color: #d6f5ff;
     font-family: 'Roboto', sans-serif;
+    height: auto;
 }

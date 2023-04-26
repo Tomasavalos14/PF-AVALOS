@@ -2,6 +2,7 @@
 @mixin movil() {
     @media screen and (max-width:480px) {
         @content;
+        height: auto;
     }
 }
 

@@ -179,7 +179,7 @@ body {
         background: #4d0686;
         display: flex;
         width: 45%;
-        height: 200px;
+        height: auto;
         align-items: center;
         justify-content: space-evenly;
         border-radius: 10px;
@@ -211,6 +211,7 @@ body {
 .about-services {
   background-color: black;
   padding-bottom: 30px;
+  
 
 }
 
@@ -219,7 +220,6 @@ body {
   justify-content: space-between;
   align-items: center;
   justify-content: space-evenly;
-
 }
 
 .servicio-ind {
@@ -252,14 +252,16 @@ body {
 .servicio-separate {
   display: flex;
 }
+
 .imagen-port {
   width: 44%;
 }
 
 //pagina sobre nosotros video y maps 
+
 section {
     
-    flex-wrap: wrap;
+   
     justify-content: space-between;
   }
   
