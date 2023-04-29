@@ -123,58 +123,58 @@ body {
     }
 }
 .imagen-port {
-  width: 24%;
-  margin-bottom: 10px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 5%;
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
 
-  > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .hover-galeria {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(273, 91%, 27%, 0.7);
-    transition: transform 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    img {
-      width: 50px;
+    > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 
-    p {
-      color: #fff;
-    }
-  }
+    .hover-galeria {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        transform: scale(0);
+        background: hsla(273, 91%, 27%, 0.7);
+        transition: transform 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-  &:hover .hover-galeria {
-    transform: scale(1);
-  }
+        img {
+            width: 50px;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+
+    &:hover .hover-galeria {
+        transform: scale(1);
+    }
 }
 
 @media (max-width: 768px) {
-  .imagen-port {
-    width: 60%; 
-  }
+    .imagen-port {
+        width: 60%;
+    }
 }
 
 @media (max-width: 480px) {
-  .imagen-port {
-    width: 100%; 
-  }
+    .imagen-port {
+        width: 100%;
+    }
 }
 
 //clients
@@ -216,100 +216,98 @@ body {
 /*  Our team */
 
 .about-services {
-  background-color: black;
-  padding-bottom: 30px;
-  position: absolute;
+    background-color: black;
+    padding-bottom: 30px;
+    position: absolute;
 
 }
 
 .servicio-cont {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
 .servicio-ind {
-  width: 40%;
-  text-align: center;
-  flex-direction: column;
+    width: 40%;
+    text-align: center;
+    flex-direction: column;
 }
 
 .servicio-ind img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: 3px solid #000000d3;
-  border-radius: 50%;
-  display: flex;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #000000d3;
+    border-radius: 50%;
+    display: flex;
 
 }
 
 .servicio-ind h3 {
-  color: #000000;
-  margin: 15px 0;
+    color: #000000;
+    margin: 15px 0;
 }
 
 .servicio-ind p {
-  color: #000000;
-  font-weight: 400;
-  text-align: center;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
 }
 
 .servicio-separate {
-  display: flex;
+    display: flex;
 }
 
 .imagen-port {
-  width: 44%;
+    width: 44%;
 }
 
 //pagina sobre nosotros video y maps 
 
 section {
-    
-   
+
     justify-content: space-between;
-  }
-  
-  .servicio-cont {
+}
+
+.servicio-cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-  }
-  
-  .servicio-ind {
+}
+
+.servicio-ind {
     flex-basis: 100%;
     max-width: 100%;
     padding: 20px;
     box-sizing: border-box;
-  
+
     @media (min-width: 768px) {
-      flex-basis: 45%;
-      max-width: 45%;
+        flex-basis: 45%;
+        max-width: 45%;
     }
-  }
-  
-  .titulo {
+}
+
+.titulo {
     font-size: 24px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 10px;
-  }
-  
-  iframe {
+}
+
+iframe {
     width: 100%;
     height: 300px;
-  }
-  
-  video {
+}
+
+video {
     width: 100%;
-  
+
     @media (min-width: 768px) {
-      height: 300px;
-      width: 350px;
+        height: 300px;
+        width: 350px;
     }
-  }
-  
+}
